@@ -8,7 +8,7 @@ The work evolved in two phases:
 
 | Phase | Purpose | Main learning |
 |---|---|---|
-| Regression MMM | Build an interpretable baseline with adstock, saturation, diagnostics, and budget simulation | Good for learning mechanics, but returns one fixed set of coefficients |
+| Linear_regression MMM | Build an interpretable baseline with adstock, saturation, diagnostics, and budget simulation | Good for learning mechanics, but returns one fixed set of coefficients |
 | Hierarchical Bayesian MMM | Estimate uncertainty, show-level differences, and plausible ranges of outcomes | Better for decision-making under uncertainty |
 
 The main goal was not only to fit a model, but to understand when a model is answering the right business question.
@@ -232,7 +232,7 @@ Stronger causal confidence would require:
 
 | File | Description |
 |---|---|
-| `MMM_Casestudy.ipynb` | Regression-based MMM, diagnostics, and budget simulation |
+| `Linear_regression.ipynb` | Regression-based MMM, diagnostics, and budget simulation |
 | `Hierarchical_Bayesian_MMM.ipynb` | Bayesian MMM, validation redesign, posterior diagnostics, and uncertainty analysis |
 | `README.md` | Project summary, assumptions, checks, findings, limitations, and learnings |
 
